@@ -16,5 +16,22 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void thôngTinCáNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Profile f = new Profile();
+            f.ShowDialog();
+        }
+
+        private void qToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            quanly f = new quanly();
+            f.ShowDialog();
+        }
     }
 }
